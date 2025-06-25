@@ -182,7 +182,7 @@ end
 
 -- Pack 1 (Requires)
 createButton("ender", "https://raw.githubusercontent.com/nicolasbarbosa43243/john-doe/refs/heads/main/gistfile1.txt", "", tabFrames["Script"])
-createButton("zee hub v6", "https://raw.githubusercontent.com/nicolasbarbosa43243/john-doe/refs/heads/main/Zee%20Hub%20V6.lua.txt, "", tabFrames["reanimation"])
+createButton("zee hub v6", "https://raw.githubusercontent.com/nicolasbarbosa43243/john-doe/refs/heads/main/Zee%20Hub%20V6.lua.txt", "", tabFrames["reanimation"])
 createButton("dual RGB sword", "https://raw.githubusercontent.com/gObl00x/Pendulum-Fixed-AND-Others-Scripts/refs/heads/main/Dual%20Ultima%20RB%20Swords", "88927553987952", tabFrames["Scripts"])
 createButton("Grab Knife V4", "https://raw.githubusercontent.com/nicolasbarbosa323/grab-knife/refs/heads/main/Grab%20V4.txt", "16190760285", tabFrames["requires"])
 createButton("AK47", "https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", "1845149698", tabFrames["Scripts"])
