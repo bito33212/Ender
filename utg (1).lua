@@ -11,7 +11,7 @@ screenGui.Name = "UTG_BY_NICOLASPIETRO"
 screenGui.Parent = game.CoreGui
 
 local mainFrame = Instance.new("Frame")
-mainFrame.Size = UDim2.new(0, 700, 0, 900)
+mainFrame.Size = UDim2.new(0, 70, 0, 90)
 mainFrame.Position = UDim2.new(0, 10, 0, 0.1)
 mainFrame.BackgroundColor3 = Color3.fromRGB(90, 0, 0)
 mainFrame.Active = true
