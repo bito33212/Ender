@@ -1,3 +1,13 @@
+-- Soundtrack
+writefile("Ender music.mp3", game:HttpGet("https://raw.githubusercontent.com/bito33212/Ender/main/%5BHIGH%20QUALITY%5D%20HACKLORD%20SHEDLETSKY%20LMS%20UST.mp3"))
+
+local sound = Instance.new("Sound")
+sound.SoundId = getcustomasset("Ender music.mp3")
+sound.Volume = 1
+sound.Looped = true
+sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+sound:Play()
+
 ----------------------------------------------------------------
 -- This edit/convert is by gObl00x ( random_hacke6 *RobloxUser* )--------------------
 -- Credits to Nebula (sigggggma) ---------
@@ -2115,4 +2125,5 @@ while true do
 	else
 	end
 end
+
 
