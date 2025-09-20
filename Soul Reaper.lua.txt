@@ -1,4 +1,4 @@
-   -- Definitions --
+-- Definitions --
 script=game:GetObjects("rbxassetid://7972086233")[1]["Soul Reaper"]
 local Player = game.Players.LocalPlayer
 local Mouse,mouse=Player:GetMouse(),Player:GetMouse()
@@ -943,3 +943,4 @@ stepped:Connect(function()
 	end
 
 end)
+
