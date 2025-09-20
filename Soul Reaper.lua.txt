@@ -1,4 +1,14 @@
--- Definitions --
+-- gObl00x Notification
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "gOb scripts";
+	Text = "This Convert Is by gOb..";
+	Icon = "rbxthumb://type=Asset&id=126389658690593&w=150&h=150"})
+Duration = 15;
+----------------------------------------------------------------
+-- This edit/convert is by gObl00x ( random_hacke6 *RobloxUser* )--------------------
+-- Credits to whoever the hell made the original Script ---------
+
+   -- Definitions --
 script=game:GetObjects("rbxassetid://7972086233")[1]["Soul Reaper"]
 local Player = game.Players.LocalPlayer
 local Mouse,mouse=Player:GetMouse(),Player:GetMouse()
@@ -941,6 +951,4 @@ stepped:Connect(function()
 			lh.C0 = lh.C0:Lerp(lhc0 * cf(0,0,0) * angles(rad(-5),rad(5),rad(-2.5)),.1)
 		end
 	end
-
 end)
-
